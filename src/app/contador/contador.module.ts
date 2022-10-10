@@ -1,15 +1,13 @@
-import { NgModule } from "@angular/core"; 
-import { contadorComponent } from "./contador/contador.component";
+import { NgModule } from '@angular/core';
 
-@NgModule ({
-    declarations:[
-        contadorComponent
+import { ContadorComponent } from './contador/contador.component';
+
+@NgModule({
+    declarations: [
+        ContadorComponent
     ],
     exports: [
-        contadorComponent
-    ] 
+        ContadorComponent
+    ]
 })
-
-export class ContadorModule {
-
-}
+export class ContadorModule {}
